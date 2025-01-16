@@ -1,0 +1,28 @@
+<resources>
+    <!-- SPLASH SCREEN TEXTS -->
+    <string name="app_name">CRYPTO</string>
+    <string name="crypto_is_all_nyou_need">CRYPTO is\nEverywhere</string>
+    <string name="experience_seamless_n_trading_secure_n_asset_management"><![CDATA[Experience Seamless\n Trading & Management]]></string>
+    <string name="get_started">GET STARTED</string>
+    <string name="login">Login</string>
+
+    <!-- DASHBOARD SCREEN TEXTS -->
+    <string name="hello_kj">Hello KJ</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="rm_3_480_75">RM 3,480.75</string>
+    <string name="_980">+980.33</string>
+    <string name="deposits">Deposits</string>
+    <string name="withdrawals">Withdrawals</string>
+    <string name="future_stocks">Future Stocks</string>
+    <string name="see_all">See all</string>
+    <string name="crypto_activities">Crypto Activities</string>
+
+    <!-- VIEWHOLDER STOCK & CRYPTO TEXTS-->
+    <string name="title">title</string>
+    <string name="rm0">RM 0.50</string>
+    <string name="_10">+10%</string>
+    <string name="_0_15">0.15</string>
+    <string name="rm_5">RM 5</string>
+
+
+</resources>
