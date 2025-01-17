@@ -32,7 +32,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/profile" />
+                    app:srcCompat="@drawable/profile"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -49,7 +50,7 @@
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asiandeveloperk@gmail.com"
+                    android:text="@string/asiandeveloperk_gmail_com"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/textView4"
@@ -119,7 +120,8 @@
                         android:text="@string/deposits"
                         android:textColor="@color/white"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:ignore="RtlSymmetry,TouchTargetSizeCheck,VisualLintButtonSize" />
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/button"
@@ -134,7 +136,8 @@
                         android:text="@string/withdrawals"
                         android:textColor="@color/white"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:ignore="RtlSymmetry,TouchTargetSizeCheck,VisualLintButtonSize" />
                     <!-- 19:53 sambung -->
                 </LinearLayout>
             </LinearLayout>
@@ -153,7 +156,8 @@
                     android:text="@string/future_stocks"
                     android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="InefficientWeight" />
 
                 <TextView
                     android:id="@+id/textView10"
@@ -206,11 +210,13 @@
             app:fabCradleMargin="8dp"
             app:fabCradleRoundedCornerRadius="50dp"
             app:fabCradleVerticalOffset="6dp"
-            android:layout_height="60dp">
+            android:layout_height="60dp"
+            tools:ignore="VisualLintBottomAppBar">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                tools:ignore="DisableBaselineAlignment">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="0dp"
@@ -225,7 +231,8 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bottom_btn1" />
+                        app:srcCompat="@drawable/bottom_btn1"
+                        tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -240,7 +247,8 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bottom_btn2" />
+                        app:srcCompat="@drawable/bottom_btn2"
+                        tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -256,7 +264,8 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bottom_btn1" />
+                        app:srcCompat="@drawable/bottom_btn1"
+                        tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -271,7 +280,8 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bottom_btn3" />
+                        app:srcCompat="@drawable/bottom_btn3"
+                        tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -286,7 +296,8 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bottom_btn4" />
+                        app:srcCompat="@drawable/bottom_btn4"
+                        tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
@@ -300,6 +311,7 @@
             app:backgroundTint="@color/orange"
             app:layout_anchor="@id/app_bar"
             app:maxImageSize="25dp"
-            app:tint="@color/white"/>
+            app:tint="@color/white"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
